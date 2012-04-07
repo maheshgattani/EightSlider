@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB2D945E152EEAEF00849C5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB2D945D152EEAEF00849C5E /* UIKit.framework */; };
+		CB2D9460152EEAEF00849C5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB2D945F152EEAEF00849C5E /* Foundation.framework */; };
+		CB2D9462152EEAEF00849C5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB2D9461152EEAEF00849C5E /* CoreGraphics.framework */; };
+		CB2D9468152EEAEF00849C5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB2D9466152EEAEF00849C5E /* InfoPlist.strings */; };
+		CB2D946A152EEAEF00849C5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2D9469152EEAEF00849C5E /* main.m */; };
+		CB2D946E152EEAEF00849C5E /* EightSliderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2D946D152EEAEF00849C5E /* EightSliderAppDelegate.m */; };
+		CB2D9471152EEAEF00849C5E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2D946F152EEAEF00849C5E /* MainStoryboard.storyboard */; };
+		CB2D9474152EEAEF00849C5E /* EightSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2D9473152EEAEF00849C5E /* EightSliderViewController.m */; };
+		CB2D947C152EEB0B00849C5E /* EightSliderMind.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2D947B152EEB0B00849C5E /* EightSliderMind.m */; };
+		CB2D9486152F2CEF00849C5E /* GridView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2D9485152F2CEF00849C5E /* GridView.m */; };
+		CB2D948B152F576900849C5E /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = CB2D948A152F576900849C5E /* data.json */; };
+		CB2D9494152F608500849C5E /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB2D948C152F608500849C5E /* image1.jpg */; };
+		CB2D9495152F608500849C5E /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB2D948D152F608500849C5E /* image2.jpg */; };
+		CB2D9496152F608500849C5E /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB2D948E152F608500849C5E /* image3.jpg */; };
+		CB2D9497152F608500849C5E /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB2D948F152F608500849C5E /* image4.jpg */; };
+		CB2D9498152F608500849C5E /* image5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB2D9490152F608500849C5E /* image5.jpg */; };
+		CB2D9499152F608500849C5E /* image6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB2D9491152F608500849C5E /* image6.jpg */; };
+		CB2D949A152F608500849C5E /* image7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB2D9492152F608500849C5E /* image7.jpg */; };
+		CB2D949B152F608500849C5E /* image8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB2D9493152F608500849C5E /* image8.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB2D9459152EEAEF00849C5E /* EightSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EightSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB2D945D152EEAEF00849C5E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CB2D945F152EEAEF00849C5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB2D9461152EEAEF00849C5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB2D9465152EEAEF00849C5E /* EightSlider-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EightSlider-Info.plist"; sourceTree = "<group>"; };
+		CB2D9467152EEAEF00849C5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB2D9469152EEAEF00849C5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB2D946B152EEAEF00849C5E /* EightSlider-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EightSlider-Prefix.pch"; sourceTree = "<group>"; };
+		CB2D946C152EEAEF00849C5E /* EightSliderAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EightSliderAppDelegate.h; sourceTree = "<group>"; };
+		CB2D946D152EEAEF00849C5E /* EightSliderAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EightSliderAppDelegate.m; sourceTree = "<group>"; };
+		CB2D9470152EEAEF00849C5E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CB2D9472152EEAEF00849C5E /* EightSliderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EightSliderViewController.h; sourceTree = "<group>"; };
+		CB2D9473152EEAEF00849C5E /* EightSliderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EightSliderViewController.m; sourceTree = "<group>"; };
+		CB2D947A152EEB0B00849C5E /* EightSliderMind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EightSliderMind.h; sourceTree = "<group>"; };
+		CB2D947B152EEB0B00849C5E /* EightSliderMind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EightSliderMind.m; sourceTree = "<group>"; };
+		CB2D9484152F2CEF00849C5E /* GridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridView.h; sourceTree = "<group>"; };
+		CB2D9485152F2CEF00849C5E /* GridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridView.m; sourceTree = "<group>"; };
+		CB2D948A152F576900849C5E /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		CB2D948C152F608500849C5E /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		CB2D948D152F608500849C5E /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		CB2D948E152F608500849C5E /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		CB2D948F152F608500849C5E /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
+		CB2D9490152F608500849C5E /* image5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image5.jpg; sourceTree = "<group>"; };
+		CB2D9491152F608500849C5E /* image6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image6.jpg; sourceTree = "<group>"; };
+		CB2D9492152F608500849C5E /* image7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image7.jpg; sourceTree = "<group>"; };
+		CB2D9493152F608500849C5E /* image8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image8.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB2D9456152EEAEF00849C5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB2D945E152EEAEF00849C5E /* UIKit.framework in Frameworks */,
+				CB2D9460152EEAEF00849C5E /* Foundation.framework in Frameworks */,
+				CB2D9462152EEAEF00849C5E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB2D944E152EEAEF00849C5E = {
+			isa = PBXGroup;
+			children = (
+				CB2D9487152F531600849C5E /* Resources */,
+				CB2D9463152EEAEF00849C5E /* EightSlider */,
+				CB2D945C152EEAEF00849C5E /* Frameworks */,
+				CB2D945A152EEAEF00849C5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB2D945A152EEAEF00849C5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB2D9459152EEAEF00849C5E /* EightSlider.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB2D945C152EEAEF00849C5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB2D945D152EEAEF00849C5E /* UIKit.framework */,
+				CB2D945F152EEAEF00849C5E /* Foundation.framework */,
+				CB2D9461152EEAEF00849C5E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB2D9463152EEAEF00849C5E /* EightSlider */ = {
+			isa = PBXGroup;
+			children = (
+				CB2D946C152EEAEF00849C5E /* EightSliderAppDelegate.h */,
+				CB2D946D152EEAEF00849C5E /* EightSliderAppDelegate.m */,
+				CB2D946F152EEAEF00849C5E /* MainStoryboard.storyboard */,
+				CB2D9472152EEAEF00849C5E /* EightSliderViewController.h */,
+				CB2D9473152EEAEF00849C5E /* EightSliderViewController.m */,
+				CB2D947A152EEB0B00849C5E /* EightSliderMind.h */,
+				CB2D947B152EEB0B00849C5E /* EightSliderMind.m */,
+				CB2D9464152EEAEF00849C5E /* Supporting Files */,
+				CB2D9484152F2CEF00849C5E /* GridView.h */,
+				CB2D9485152F2CEF00849C5E /* GridView.m */,
+			);
+			path = EightSlider;
+			sourceTree = "<group>";
+		};
+		CB2D9464152EEAEF00849C5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB2D9465152EEAEF00849C5E /* EightSlider-Info.plist */,
+				CB2D9466152EEAEF00849C5E /* InfoPlist.strings */,
+				CB2D9469152EEAEF00849C5E /* main.m */,
+				CB2D946B152EEAEF00849C5E /* EightSlider-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB2D9487152F531600849C5E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CB2D948C152F608500849C5E /* image1.jpg */,
+				CB2D948D152F608500849C5E /* image2.jpg */,
+				CB2D948E152F608500849C5E /* image3.jpg */,
+				CB2D948F152F608500849C5E /* image4.jpg */,
+				CB2D9490152F608500849C5E /* image5.jpg */,
+				CB2D9491152F608500849C5E /* image6.jpg */,
+				CB2D9492152F608500849C5E /* image7.jpg */,
+				CB2D9493152F608500849C5E /* image8.jpg */,
+				CB2D948A152F576900849C5E /* data.json */,
+			);
+			name = Resources;
+			path = EightSlider;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB2D9458152EEAEF00849C5E /* EightSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB2D9477152EEAEF00849C5E /* Build configuration list for PBXNativeTarget "EightSlider" */;
+			buildPhases = (
+				CB2D9455152EEAEF00849C5E /* Sources */,
+				CB2D9456152EEAEF00849C5E /* Frameworks */,
+				CB2D9457152EEAEF00849C5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EightSlider;
+			productName = EightSlider;
+			productReference = CB2D9459152EEAEF00849C5E /* EightSlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB2D9450152EEAEF00849C5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EightSlider;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CB2D9453152EEAEF00849C5E /* Build configuration list for PBXProject "EightSlider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CB2D944E152EEAEF00849C5E;
+			productRefGroup = CB2D945A152EEAEF00849C5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB2D9458152EEAEF00849C5E /* EightSlider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB2D9457152EEAEF00849C5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB2D9468152EEAEF00849C5E /* InfoPlist.strings in Resources */,
+				CB2D9471152EEAEF00849C5E /* MainStoryboard.storyboard in Resources */,
+				CB2D948B152F576900849C5E /* data.json in Resources */,
+				CB2D9494152F608500849C5E /* image1.jpg in Resources */,
+				CB2D9495152F608500849C5E /* image2.jpg in Resources */,
+				CB2D9496152F608500849C5E /* image3.jpg in Resources */,
+				CB2D9497152F608500849C5E /* image4.jpg in Resources */,
+				CB2D9498152F608500849C5E /* image5.jpg in Resources */,
+				CB2D9499152F608500849C5E /* image6.jpg in Resources */,
+				CB2D949A152F608500849C5E /* image7.jpg in Resources */,
+				CB2D949B152F608500849C5E /* image8.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB2D9455152EEAEF00849C5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB2D946A152EEAEF00849C5E /* main.m in Sources */,
+				CB2D946E152EEAEF00849C5E /* EightSliderAppDelegate.m in Sources */,
+				CB2D9474152EEAEF00849C5E /* EightSliderViewController.m in Sources */,
+				CB2D947C152EEB0B00849C5E /* EightSliderMind.m in Sources */,
+				CB2D9486152F2CEF00849C5E /* GridView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB2D9466152EEAEF00849C5E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB2D9467152EEAEF00849C5E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB2D946F152EEAEF00849C5E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB2D9470152EEAEF00849C5E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB2D9475152EEAEF00849C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB2D9476152EEAEF00849C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB2D9478152EEAEF00849C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EightSlider/EightSlider-Prefix.pch";
+				INFOPLIST_FILE = "EightSlider/EightSlider-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB2D9479152EEAEF00849C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EightSlider/EightSlider-Prefix.pch";
+				INFOPLIST_FILE = "EightSlider/EightSlider-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB2D9453152EEAEF00849C5E /* Build configuration list for PBXProject "EightSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB2D9475152EEAEF00849C5E /* Debug */,
+				CB2D9476152EEAEF00849C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB2D9477152EEAEF00849C5E /* Build configuration list for PBXNativeTarget "EightSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB2D9478152EEAEF00849C5E /* Debug */,
+				CB2D9479152EEAEF00849C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB2D9450152EEAEF00849C5E /* Project object */;
+}
